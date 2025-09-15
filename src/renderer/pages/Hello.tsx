@@ -25,6 +25,7 @@ export default function Hello() {
   let dollmesh
     const createObj = ()=>{
      dollmesh= base.add({
+      
             base: base.resources.items.gewenSimple,
             position: new THREE.Vector3(0, -.5, 0),
             scale: new THREE.Vector3(.1, 0.1, 0.1),
