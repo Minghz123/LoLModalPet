@@ -1,0 +1,989 @@
+{
+  "name": "Pengu_Garen",
+  "resource": "..\\models\\Pengu_Garen\\Pengu_Garen.glb",
+  "animations": [
+    {
+      "name": "attack_01.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "attack_02.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "channel.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "crit.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "dab.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "dance.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": true,
+        "scale": 0.85,
+        "position": [
+          0,
+          80,
+          0
+        ],
+        "rotation": [
+          15,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "delay": 0,
+        "start_time": 0,
+        "end_time": 0,
+        "time_scale": 1,
+        "repeat": 1
+      },
+      "voice": {
+        "resource": "..\\models\\Pengu_Garen\\Voices\\File0063.ogg",
+        "delay": 0,
+        "start_time": 0,
+        "end_time": 0,
+        "is_force": true,
+        "is_repeat": false
+      }
+    },
+    {
+      "name": "dance_loop.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": true,
+        "scale": 0.85,
+        "position": [
+          0,
+          80,
+          0
+        ],
+        "rotation": [
+          15,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "delay": 0,
+        "start_time": 0,
+        "end_time": 4.633333683013916,
+        "time_scale": 1,
+        "repeat": 1
+      },
+      "voice": {
+        "resource": "..\\models\\Pengu_Garen\\Voices\\File0058.ogg",
+        "delay": 0,
+        "is_force": true,
+        "is_repeat": true,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "death.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "delay": 0,
+        "start_time": 0,
+        "end_time": 0,
+        "time_scale": 0,
+        "repeat": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "idle_in.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "idle2.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "idle3.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "idle11.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "kncokup.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "laugh.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "pengu_taunt.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "recall.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "run.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "run_spell1.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_on.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell3.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell3_90.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell3_-90.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell3_180.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell3_-180.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell4.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    }
+  ],
+  "voices": [
+    "..\\models\\Pengu_Garen\\Voices\\File0058.ogg",
+    "..\\models\\Pengu_Garen\\Voices\\File0063.ogg"
+  ],
+  "enter": [
+    {
+      "name": "dance.pengugaren.anm",
+      "meshes": [
+        "Body",
+        "GarenBody"
+      ],
+      "stats": {
+        "is_mirror": true,
+        "scale": 0.85,
+        "position": [
+          0,
+          80,
+          0
+        ],
+        "rotation": [
+          15,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "delay": 0,
+        "start_time": 0,
+        "end_time": 0,
+        "time_scale": 1,
+        "repeat": 1
+      },
+      "voice": {
+        "resource": "..\\models\\Pengu_Garen\\Voices\\File0063.ogg",
+        "delay": 0,
+        "is_force": true,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    }
+  ],
+  "idle": [],
+  "groups": [
+    [
+      {
+        "name": "dance_loop.pengugaren.anm",
+        "meshes": [
+          "Body",
+          "GarenBody"
+        ],
+        "stats": {
+          "is_mirror": true,
+          "scale": 0.85,
+          "position": [
+            0,
+            80,
+            0
+          ],
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "delay": 0,
+          "start_time": 0,
+          "end_time": 0,
+          "time_scale": 1,
+          "repeat": 1
+        },
+        "voice": {
+          "resource": "..\\models\\Pengu_Garen\\Voices\\File0058.ogg",
+          "delay": 0,
+          "start_time": 0,
+          "end_time": 0,
+          "is_force": true,
+          "is_repeat": true
+        }
+      }
+    ]
+  ]
+}

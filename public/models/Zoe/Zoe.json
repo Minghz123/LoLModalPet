@@ -1,0 +1,6894 @@
+{
+  "name": "Zoe",
+  "resource": "..\\models\\Zoe\\Zoe.glb",
+  "animations": [
+    {
+      "name": "idle_to_run.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_90.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_TennisRac_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_-90.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_TennisRac_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_180.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_TennisRac_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          180,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_-180.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_TennisRac_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_b_90.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_b_-90.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_b_180.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          180,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_b_-180.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_b_base.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_b_to_idle.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_b_to_run.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_base.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_TennisRac_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_to_idle.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "spell1_to_run.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_attack1.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_attack2.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_attack3.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_channel_loop.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_channel_wndup.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_dance.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_death.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_empowered_attack.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_empowered_attack_to_run.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_empowered_to_idle.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_idle_to_hasterun.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_idle1.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_idle1_in.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_idle2.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_idle2_in.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_idle3.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_idle3_in.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_into_yoyo_idle1.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Yoyo_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_joke_loop.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_joke_start.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_IceCream_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_laugh.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_orbs.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Jumprope_Mat",
+        "Zoe_Base_TennisRac_Mat",
+        "Zoe_Base_Yoyo_Mat",
+        "Zoe_Base_IceCream_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_orbs_into.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Jumprope_Mat",
+        "Zoe_Base_TennisRac_Mat",
+        "Zoe_Base_Yoyo_Mat",
+        "Zoe_Base_IceCream_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_recall.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Yoyo_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_respawn.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_run_haste.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_run_slow.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_run_variant01.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_run_variant01_to_run.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_run_variant02.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_run_variant02_to_run.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_run1.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_runhomeguard.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_runhomeguard_into.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_runhomeguard_out.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_skippingrope_idle01.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Jumprope_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_skippingrope_idle02.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Jumprope_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_skippingrope_into.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Jumprope_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_skippingrope_run01.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Jumprope_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile_90.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile_-90.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile_180.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile_-180.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile_to_idle.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile1_to_hasterun.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile2.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile2_90.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile2_-90.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile2_180.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile2_-180.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile2_to_hasterun.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell2_missile2_to_idle.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell3.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell3_to_idle.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell3_to_run.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell4.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell4_b.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_IceCream_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.7,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell4_enter.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.7,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell4_exit.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell4_exit_b.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_IceCream_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.7,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_spell4_exit_to_run.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_taunt.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Yoyo_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_yoyo_attack1.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Yoyo_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 0.8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_yoyo_idle_to_run.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Yoyo_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_yoyo_idle01.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Yoyo_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_yoyo_idle02.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Yoyo_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_yoyo_idlein01.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Yoyo_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_yoyo_run01.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat",
+        "Zoe_Base_Yoyo_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    }
+  ],
+  "voices": [
+    "..\\models\\Zoe\\Voices\\File0281.ogg",
+    "..\\models\\Zoe\\Voices\\File0282.ogg",
+    "..\\models\\Zoe\\Voices\\File0283.ogg",
+    "..\\models\\Zoe\\Voices\\File0284.ogg",
+    "..\\models\\Zoe\\Voices\\File0285.ogg",
+    "..\\models\\Zoe\\Voices\\File0286.ogg",
+    "..\\models\\Zoe\\Voices\\File0287.ogg",
+    "..\\models\\Zoe\\Voices\\File0288.ogg",
+    "..\\models\\Zoe\\Voices\\File0289.ogg",
+    "..\\models\\Zoe\\Voices\\File0290.ogg",
+    "..\\models\\Zoe\\Voices\\File0291.ogg",
+    "..\\models\\Zoe\\Voices\\File0292.ogg",
+    "..\\models\\Zoe\\Voices\\File0293.ogg",
+    "..\\models\\Zoe\\Voices\\File0294.ogg",
+    "..\\models\\Zoe\\Voices\\File0295.ogg",
+    "..\\models\\Zoe\\Voices\\File0296.ogg",
+    "..\\models\\Zoe\\Voices\\File0297.ogg",
+    "..\\models\\Zoe\\Voices\\File0298.ogg",
+    "..\\models\\Zoe\\Voices\\File0299.ogg",
+    "..\\models\\Zoe\\Voices\\File0300.ogg",
+    "..\\models\\Zoe\\Voices\\File0301.ogg",
+    "..\\models\\Zoe\\Voices\\File0302.ogg",
+    "..\\models\\Zoe\\Voices\\File0303.ogg",
+    "..\\models\\Zoe\\Voices\\File0304.ogg",
+    "..\\models\\Zoe\\Voices\\File0305.ogg",
+    "..\\models\\Zoe\\Voices\\File0306.ogg",
+    "..\\models\\Zoe\\Voices\\File0307.ogg",
+    "..\\models\\Zoe\\Voices\\File0308.ogg",
+    "..\\models\\Zoe\\Voices\\File0309.ogg",
+    "..\\models\\Zoe\\Voices\\File0310.ogg",
+    "..\\models\\Zoe\\Voices\\File0311.ogg",
+    "..\\models\\Zoe\\Voices\\File0312.ogg",
+    "..\\models\\Zoe\\Voices\\File0313.ogg",
+    "..\\models\\Zoe\\Voices\\File0314.ogg",
+    "..\\models\\Zoe\\Voices\\File0315.ogg",
+    "..\\models\\Zoe\\Voices\\File0316.ogg",
+    "..\\models\\Zoe\\Voices\\File0317.ogg",
+    "..\\models\\Zoe\\Voices\\File0318.ogg",
+    "..\\models\\Zoe\\Voices\\File0319.ogg",
+    "..\\models\\Zoe\\Voices\\File0320.ogg",
+    "..\\models\\Zoe\\Voices\\File0321.ogg",
+    "..\\models\\Zoe\\Voices\\File0322.ogg",
+    "..\\models\\Zoe\\Voices\\File0323.ogg",
+    "..\\models\\Zoe\\Voices\\File0324.ogg",
+    "..\\models\\Zoe\\Voices\\File0325.ogg",
+    "..\\models\\Zoe\\Voices\\File0326.ogg",
+    "..\\models\\Zoe\\Voices\\File0327.ogg",
+    "..\\models\\Zoe\\Voices\\File0328.ogg",
+    "..\\models\\Zoe\\Voices\\File0329.ogg",
+    "..\\models\\Zoe\\Voices\\File0330.ogg",
+    "..\\models\\Zoe\\Voices\\File0331.ogg",
+    "..\\models\\Zoe\\Voices\\File0332.ogg",
+    "..\\models\\Zoe\\Voices\\File0333.ogg",
+    "..\\models\\Zoe\\Voices\\File0334.ogg",
+    "..\\models\\Zoe\\Voices\\File0335.ogg",
+    "..\\models\\Zoe\\Voices\\File0336.ogg",
+    "..\\models\\Zoe\\Voices\\File0337.ogg",
+    "..\\models\\Zoe\\Voices\\File0338.ogg",
+    "..\\models\\Zoe\\Voices\\File0339.ogg",
+    "..\\models\\Zoe\\Voices\\File0340.ogg",
+    "..\\models\\Zoe\\Voices\\File0341.ogg",
+    "..\\models\\Zoe\\Voices\\File0342.ogg",
+    "..\\models\\Zoe\\Voices\\File0343.ogg",
+    "..\\models\\Zoe\\Voices\\File0344.ogg",
+    "..\\models\\Zoe\\Voices\\File0345.ogg",
+    "..\\models\\Zoe\\Voices\\File0346.ogg",
+    "..\\models\\Zoe\\Voices\\File0347.ogg",
+    "..\\models\\Zoe\\Voices\\File0348.ogg",
+    "..\\models\\Zoe\\Voices\\File0349.ogg",
+    "..\\models\\Zoe\\Voices\\File0350.ogg",
+    "..\\models\\Zoe\\Voices\\File0351.ogg",
+    "..\\models\\Zoe\\Voices\\File0352.ogg",
+    "..\\models\\Zoe\\Voices\\File0353.ogg",
+    "..\\models\\Zoe\\Voices\\File0354.ogg",
+    "..\\models\\Zoe\\Voices\\File0355.ogg",
+    "..\\models\\Zoe\\Voices\\File0356.ogg",
+    "..\\models\\Zoe\\Voices\\File0357.ogg",
+    "..\\models\\Zoe\\Voices\\File0358.ogg",
+    "..\\models\\Zoe\\Voices\\File0359.ogg",
+    "..\\models\\Zoe\\Voices\\File0360.ogg",
+    "..\\models\\Zoe\\Voices\\File0361.ogg",
+    "..\\models\\Zoe\\Voices\\File0362.ogg",
+    "..\\models\\Zoe\\Voices\\File0363.ogg",
+    "..\\models\\Zoe\\Voices\\File0364.ogg",
+    "..\\models\\Zoe\\Voices\\File0365.ogg",
+    "..\\models\\Zoe\\Voices\\File0366.ogg",
+    "..\\models\\Zoe\\Voices\\File0367.ogg",
+    "..\\models\\Zoe\\Voices\\File0368.ogg",
+    "..\\models\\Zoe\\Voices\\File0369.ogg",
+    "..\\models\\Zoe\\Voices\\File0370.ogg",
+    "..\\models\\Zoe\\Voices\\File0371.ogg",
+    "..\\models\\Zoe\\Voices\\File0372.ogg",
+    "..\\models\\Zoe\\Voices\\File0373.ogg",
+    "..\\models\\Zoe\\Voices\\File0374.ogg",
+    "..\\models\\Zoe\\Voices\\File0375.ogg",
+    "..\\models\\Zoe\\Voices\\File0376.ogg",
+    "..\\models\\Zoe\\Voices\\File0377.ogg",
+    "..\\models\\Zoe\\Voices\\File0378.ogg",
+    "..\\models\\Zoe\\Voices\\File0379.ogg",
+    "..\\models\\Zoe\\Voices\\File0380.ogg",
+    "..\\models\\Zoe\\Voices\\File0381.ogg",
+    "..\\models\\Zoe\\Voices\\File0382.ogg",
+    "..\\models\\Zoe\\Voices\\File0383.ogg",
+    "..\\models\\Zoe\\Voices\\File0384.ogg",
+    "..\\models\\Zoe\\Voices\\File0385.ogg",
+    "..\\models\\Zoe\\Voices\\File0386.ogg",
+    "..\\models\\Zoe\\Voices\\File0387.ogg",
+    "..\\models\\Zoe\\Voices\\File0388.ogg",
+    "..\\models\\Zoe\\Voices\\File0389.ogg",
+    "..\\models\\Zoe\\Voices\\File0390.ogg",
+    "..\\models\\Zoe\\Voices\\File0391.ogg",
+    "..\\models\\Zoe\\Voices\\File0392.ogg",
+    "..\\models\\Zoe\\Voices\\File0393.ogg",
+    "..\\models\\Zoe\\Voices\\File0394.ogg",
+    "..\\models\\Zoe\\Voices\\File0395.ogg",
+    "..\\models\\Zoe\\Voices\\File0396.ogg",
+    "..\\models\\Zoe\\Voices\\File0397.ogg",
+    "..\\models\\Zoe\\Voices\\File0398.ogg",
+    "..\\models\\Zoe\\Voices\\File0399.ogg",
+    "..\\models\\Zoe\\Voices\\File0400.ogg",
+    "..\\models\\Zoe\\Voices\\File0401.ogg",
+    "..\\models\\Zoe\\Voices\\File0402.ogg",
+    "..\\models\\Zoe\\Voices\\File0403.ogg",
+    "..\\models\\Zoe\\Voices\\File0404.ogg",
+    "..\\models\\Zoe\\Voices\\File0405.ogg",
+    "..\\models\\Zoe\\Voices\\File0406.ogg",
+    "..\\models\\Zoe\\Voices\\File0407.ogg",
+    "..\\models\\Zoe\\Voices\\File0408.ogg",
+    "..\\models\\Zoe\\Voices\\File0409.ogg",
+    "..\\models\\Zoe\\Voices\\File0410.ogg",
+    "..\\models\\Zoe\\Voices\\File0411.ogg",
+    "..\\models\\Zoe\\Voices\\File0412.ogg",
+    "..\\models\\Zoe\\Voices\\File0413.ogg",
+    "..\\models\\Zoe\\Voices\\File0414.ogg",
+    "..\\models\\Zoe\\Voices\\File0415.ogg",
+    "..\\models\\Zoe\\Voices\\File0416.ogg",
+    "..\\models\\Zoe\\Voices\\File0417.ogg",
+    "..\\models\\Zoe\\Voices\\File0418.ogg",
+    "..\\models\\Zoe\\Voices\\File0419.ogg",
+    "..\\models\\Zoe\\Voices\\File0420.ogg",
+    "..\\models\\Zoe\\Voices\\File0421.ogg",
+    "..\\models\\Zoe\\Voices\\File0422.ogg",
+    "..\\models\\Zoe\\Voices\\File0423.ogg",
+    "..\\models\\Zoe\\Voices\\File0424.ogg",
+    "..\\models\\Zoe\\Voices\\File0425.ogg",
+    "..\\models\\Zoe\\Voices\\File0426.ogg",
+    "..\\models\\Zoe\\Voices\\File0427.ogg",
+    "..\\models\\Zoe\\Voices\\File0428.ogg",
+    "..\\models\\Zoe\\Voices\\File0429.ogg",
+    "..\\models\\Zoe\\Voices\\File0430.ogg",
+    "..\\models\\Zoe\\Voices\\File0431.ogg",
+    "..\\models\\Zoe\\Voices\\File0432.ogg",
+    "..\\models\\Zoe\\Voices\\File0433.ogg",
+    "..\\models\\Zoe\\Voices\\File0434.ogg",
+    "..\\models\\Zoe\\Voices\\File0435.ogg",
+    "..\\models\\Zoe\\Voices\\File0436.ogg",
+    "..\\models\\Zoe\\Voices\\File0437.ogg",
+    "..\\models\\Zoe\\Voices\\File0438.ogg",
+    "..\\models\\Zoe\\Voices\\File0439.ogg",
+    "..\\models\\Zoe\\Voices\\File0440.ogg",
+    "..\\models\\Zoe\\Voices\\File0441.ogg",
+    "..\\models\\Zoe\\Voices\\File0442.ogg",
+    "..\\models\\Zoe\\Voices\\File0443.ogg",
+    "..\\models\\Zoe\\Voices\\File0444.ogg",
+    "..\\models\\Zoe\\Voices\\File0445.ogg",
+    "..\\models\\Zoe\\Voices\\File0446.ogg",
+    "..\\models\\Zoe\\Voices\\File0447.ogg",
+    "..\\models\\Zoe\\Voices\\File0448.ogg",
+    "..\\models\\Zoe\\Voices\\File0449.ogg",
+    "..\\models\\Zoe\\Voices\\File0450.ogg",
+    "..\\models\\Zoe\\Voices\\File0451.ogg",
+    "..\\models\\Zoe\\Voices\\File0452.ogg",
+    "..\\models\\Zoe\\Voices\\File0453.ogg",
+    "..\\models\\Zoe\\Voices\\File0454.ogg",
+    "..\\models\\Zoe\\Voices\\File0455.ogg",
+    "..\\models\\Zoe\\Voices\\File0456.ogg",
+    "..\\models\\Zoe\\Voices\\File0457.ogg",
+    "..\\models\\Zoe\\Voices\\File0458.ogg",
+    "..\\models\\Zoe\\Voices\\File0459.ogg",
+    "..\\models\\Zoe\\Voices\\File0460.ogg",
+    "..\\models\\Zoe\\Voices\\File0461.ogg",
+    "..\\models\\Zoe\\Voices\\File0462.ogg",
+    "..\\models\\Zoe\\Voices\\File0463.ogg",
+    "..\\models\\Zoe\\Voices\\File0464.ogg",
+    "..\\models\\Zoe\\Voices\\File0465.ogg",
+    "..\\models\\Zoe\\Voices\\File0466.ogg",
+    "..\\models\\Zoe\\Voices\\File0467.ogg",
+    "..\\models\\Zoe\\Voices\\File0468.ogg",
+    "..\\models\\Zoe\\Voices\\File0469.ogg",
+    "..\\models\\Zoe\\Voices\\File0470.ogg",
+    "..\\models\\Zoe\\Voices\\File0471.ogg",
+    "..\\models\\Zoe\\Voices\\File0472.ogg",
+    "..\\models\\Zoe\\Voices\\File0473.ogg",
+    "..\\models\\Zoe\\Voices\\File0474.ogg",
+    "..\\models\\Zoe\\Voices\\File0475.ogg",
+    "..\\models\\Zoe\\Voices\\File0476.ogg",
+    "..\\models\\Zoe\\Voices\\File0477.ogg",
+    "..\\models\\Zoe\\Voices\\File0478.ogg",
+    "..\\models\\Zoe\\Voices\\File0479.ogg",
+    "..\\models\\Zoe\\Voices\\File0480.ogg",
+    "..\\models\\Zoe\\Voices\\File0481.ogg",
+    "..\\models\\Zoe\\Voices\\File0482.ogg",
+    "..\\models\\Zoe\\Voices\\File0483.ogg",
+    "..\\models\\Zoe\\Voices\\File0484.ogg",
+    "..\\models\\Zoe\\Voices\\File0485.ogg",
+    "..\\models\\Zoe\\Voices\\File0486.ogg",
+    "..\\models\\Zoe\\Voices\\File0487.ogg",
+    "..\\models\\Zoe\\Voices\\File0488.ogg",
+    "..\\models\\Zoe\\Voices\\File0489.ogg",
+    "..\\models\\Zoe\\Voices\\File0490.ogg",
+    "..\\models\\Zoe\\Voices\\File0491.ogg",
+    "..\\models\\Zoe\\Voices\\File0492.ogg",
+    "..\\models\\Zoe\\Voices\\File0493.ogg",
+    "..\\models\\Zoe\\Voices\\File0494.ogg",
+    "..\\models\\Zoe\\Voices\\File0495.ogg",
+    "..\\models\\Zoe\\Voices\\File0496.ogg",
+    "..\\models\\Zoe\\Voices\\File0497.ogg",
+    "..\\models\\Zoe\\Voices\\File0498.ogg",
+    "..\\models\\Zoe\\Voices\\File0499.ogg",
+    "..\\models\\Zoe\\Voices\\File0500.ogg",
+    "..\\models\\Zoe\\Voices\\File0501.ogg",
+    "..\\models\\Zoe\\Voices\\File0502.ogg",
+    "..\\models\\Zoe\\Voices\\File0503.ogg",
+    "..\\models\\Zoe\\Voices\\File0504.ogg",
+    "..\\models\\Zoe\\Voices\\File0505.ogg",
+    "..\\models\\Zoe\\Voices\\File0506.ogg",
+    "..\\models\\Zoe\\Voices\\File0507.ogg",
+    "..\\models\\Zoe\\Voices\\File0508.ogg",
+    "..\\models\\Zoe\\Voices\\File0509.ogg",
+    "..\\models\\Zoe\\Voices\\File0510.ogg",
+    "..\\models\\Zoe\\Voices\\File0511.ogg",
+    "..\\models\\Zoe\\Voices\\File0512.ogg",
+    "..\\models\\Zoe\\Voices\\File0513.ogg",
+    "..\\models\\Zoe\\Voices\\File0514.ogg",
+    "..\\models\\Zoe\\Voices\\File0515.ogg",
+    "..\\models\\Zoe\\Voices\\File0516.ogg",
+    "..\\models\\Zoe\\Voices\\File0517.ogg",
+    "..\\models\\Zoe\\Voices\\File0518.ogg",
+    "..\\models\\Zoe\\Voices\\File0519.ogg",
+    "..\\models\\Zoe\\Voices\\File0520.ogg",
+    "..\\models\\Zoe\\Voices\\File0521.ogg",
+    "..\\models\\Zoe\\Voices\\File0522.ogg",
+    "..\\models\\Zoe\\Voices\\File0523.ogg",
+    "..\\models\\Zoe\\Voices\\File0524.ogg",
+    "..\\models\\Zoe\\Voices\\File0525.ogg",
+    "..\\models\\Zoe\\Voices\\File0526.ogg",
+    "..\\models\\Zoe\\Voices\\File0527.ogg",
+    "..\\models\\Zoe\\Voices\\File0528.ogg",
+    "..\\models\\Zoe\\Voices\\File0529.ogg",
+    "..\\models\\Zoe\\Voices\\File0530.ogg",
+    "..\\models\\Zoe\\Voices\\File0531.ogg",
+    "..\\models\\Zoe\\Voices\\File0532.ogg",
+    "..\\models\\Zoe\\Voices\\File0533.ogg",
+    "..\\models\\Zoe\\Voices\\File0534.ogg",
+    "..\\models\\Zoe\\Voices\\File0535.ogg",
+    "..\\models\\Zoe\\Voices\\File0536.ogg",
+    "..\\models\\Zoe\\Voices\\File0537.ogg",
+    "..\\models\\Zoe\\Voices\\File0538.ogg",
+    "..\\models\\Zoe\\Voices\\File0539.ogg",
+    "..\\models\\Zoe\\Voices\\File0540.ogg",
+    "..\\models\\Zoe\\Voices\\File0541.ogg",
+    "..\\models\\Zoe\\Voices\\File0542.ogg",
+    "..\\models\\Zoe\\Voices\\File0543.ogg",
+    "..\\models\\Zoe\\Voices\\File0544.ogg",
+    "..\\models\\Zoe\\Voices\\File0545.ogg",
+    "..\\models\\Zoe\\Voices\\File0546.ogg",
+    "..\\models\\Zoe\\Voices\\File0547.ogg",
+    "..\\models\\Zoe\\Voices\\File0548.ogg",
+    "..\\models\\Zoe\\Voices\\File0549.ogg",
+    "..\\models\\Zoe\\Voices\\File0550.ogg",
+    "..\\models\\Zoe\\Voices\\File0551.ogg",
+    "..\\models\\Zoe\\Voices\\File0552.ogg",
+    "..\\models\\Zoe\\Voices\\File0553.ogg",
+    "..\\models\\Zoe\\Voices\\File0554.ogg",
+    "..\\models\\Zoe\\Voices\\File0555.ogg",
+    "..\\models\\Zoe\\Voices\\File0556.ogg",
+    "..\\models\\Zoe\\Voices\\File0557.ogg",
+    "..\\models\\Zoe\\Voices\\File0558.ogg",
+    "..\\models\\Zoe\\Voices\\File0559.ogg",
+    "..\\models\\Zoe\\Voices\\File0560.ogg",
+    "..\\models\\Zoe\\Voices\\File0561.ogg",
+    "..\\models\\Zoe\\Voices\\File0562.ogg",
+    "..\\models\\Zoe\\Voices\\File0563.ogg",
+    "..\\models\\Zoe\\Voices\\File0564.ogg",
+    "..\\models\\Zoe\\Voices\\File0565.ogg",
+    "..\\models\\Zoe\\Voices\\File0566.ogg",
+    "..\\models\\Zoe\\Voices\\File0567.ogg",
+    "..\\models\\Zoe\\Voices\\File0568.ogg",
+    "..\\models\\Zoe\\Voices\\File0569.ogg",
+    "..\\models\\Zoe\\Voices\\File0570.ogg",
+    "..\\models\\Zoe\\Voices\\File0571.ogg",
+    "..\\models\\Zoe\\Voices\\File0572.ogg",
+    "..\\models\\Zoe\\Voices\\File0573.ogg",
+    "..\\models\\Zoe\\Voices\\File0574.ogg",
+    "..\\models\\Zoe\\Voices\\File0575.ogg",
+    "..\\models\\Zoe\\Voices\\File0576.ogg",
+    "..\\models\\Zoe\\Voices\\File0577.ogg",
+    "..\\models\\Zoe\\Voices\\File0578.ogg",
+    "..\\models\\Zoe\\Voices\\File0579.ogg",
+    "..\\models\\Zoe\\Voices\\File0580.ogg",
+    "..\\models\\Zoe\\Voices\\File0581.ogg",
+    "..\\models\\Zoe\\Voices\\File0582.ogg",
+    "..\\models\\Zoe\\Voices\\File0583.ogg",
+    "..\\models\\Zoe\\Voices\\File0584.ogg",
+    "..\\models\\Zoe\\Voices\\File0585.ogg",
+    "..\\models\\Zoe\\Voices\\File0586.ogg",
+    "..\\models\\Zoe\\Voices\\File0587.ogg"
+  ],
+  "enter": [
+    {
+      "name": "zoe_idle1_in.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "..\\models\\Zoe\\Voices\\File0433.ogg",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_idle1.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    }
+  ],
+  "idle": [
+    {
+      "name": "zoe_idle1.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_idle3.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    },
+    {
+      "name": "zoe_idle2.anm",
+      "meshes": [
+        "Zoe_Base_Mat",
+        "Zoe_Base_Hair_Mat"
+      ],
+      "stats": {
+        "is_mirror": false,
+        "scale": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "action": {
+        "repeat": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "delay": 0,
+        "time_scale": 1
+      },
+      "voice": {
+        "resource": "",
+        "delay": 0,
+        "is_force": false,
+        "is_repeat": false,
+        "start_time": 0,
+        "end_time": 0
+      }
+    }
+  ],
+  "groups": [
+    [
+      {
+        "name": "zoe_idle1_in.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "..\\models\\Zoe\\Voices\\File0433.ogg",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_idle1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "idle_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "delay": 0,
+          "start_time": 0,
+          "end_time": 1.3333333730697632,
+          "time_scale": 1,
+          "repeat": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_idle_to_hasterun.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run_haste.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_run_variant01.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run_variant01_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_run_variant02.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run_variant02_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_runhomeguard_into.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_runhomeguard.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_runhomeguard_out.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_skippingrope_into.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Jumprope_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_skippingrope_idle01.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Jumprope_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_skippingrope_idle02.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Jumprope_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_spell2.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell2_missile1_to_hasterun.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run_haste.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_spell2_missile2.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell2_missile2_to_hasterun.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run_haste.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_spell2_missile.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell2_missile_to_idle.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_spell2_missile2.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell2_missile2_to_idle.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_spell3.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell3_to_idle.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_idle3.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_spell3.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell3_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_spell4_enter.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 0.7,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell4.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 0.8,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell4_exit.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 0.8,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell4_exit_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_spell4_enter.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 0.7,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell4_b.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_IceCream_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 0.7,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell4_exit_b.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_IceCream_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 0.7,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell4_exit_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_taunt.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Yoyo_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 0.8,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_yoyo_attack1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Yoyo_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 0.8,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_yoyo_run01.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Yoyo_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_yoyo_idle_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Yoyo_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_yoyo_idle01.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Yoyo_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_yoyo_idle02.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Yoyo_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_yoyo_idlein01.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Yoyo_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_respawn.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_run_slow.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "..\\models\\Zoe\\Voices\\File0482.ogg",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_skippingrope_run01.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Jumprope_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_recall.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Yoyo_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_spell4_exit_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_laugh.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "..\\models\\Zoe\\Voices\\File0541.ogg",
+          "delay": 0.5,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_joke_start.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_IceCream_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_joke_loop.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_into_yoyo_idle1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Yoyo_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_idle3_in.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_idle3.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_idle2_in.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_idle2.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_idle1_in.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_idle1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_empowered_attack.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_empowered_attack_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_run1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_empowered_attack.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_empowered_to_idle.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_idle2.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_death.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "..\\models\\Zoe\\Voices\\File0335.ogg",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_channel_loop.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_attack2.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_attack1.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "spell1_base.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_TennisRac_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 0.85,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "..\\models\\Zoe\\Voices\\File0559.ogg",
+          "delay": 0.2,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "spell1_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "idle_to_run.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "spell1_b_base.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "..\\models\\Zoe\\Voices\\File0511.ogg",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "spell1_b_to_idle.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_idle2.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_run_haste.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "..\\models\\Zoe\\Voices\\File0574.ogg",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_skippingrope_into.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Jumprope_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_skippingrope_idle01.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Jumprope_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      },
+      {
+        "name": "zoe_skippingrope_idle02.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat",
+          "Zoe_Base_Jumprope_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_dance.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "..\\models\\Zoe\\Voices\\File0364.ogg",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ],
+    [
+      {
+        "name": "zoe_death.anm",
+        "meshes": [
+          "Zoe_Base_Mat",
+          "Zoe_Base_Hair_Mat"
+        ],
+        "stats": {
+          "is_mirror": false,
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "action": {
+          "repeat": 1,
+          "start_time": 0,
+          "end_time": 0,
+          "delay": 0,
+          "time_scale": 1
+        },
+        "voice": {
+          "resource": "..\\models\\Zoe\\Voices\\File0456.ogg",
+          "delay": 0,
+          "is_force": false,
+          "is_repeat": false,
+          "start_time": 0,
+          "end_time": 0
+        }
+      }
+    ]
+  ]
+}
