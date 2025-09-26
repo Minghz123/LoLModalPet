@@ -1,6 +1,7 @@
 
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import Hello from './pages/Hello';
+import About from './pages/about';
 import './App.css';
 
 

@@ -29,6 +29,14 @@ export default class Resource {
           name: 'gewenSimple',
           source: 'models/gewen/simple.glb',
         },
+        {
+          name: 'arura',
+          source: 'models/arura/base.glb',
+        },
+        {
+          name: 'aixi',
+          source: 'models/aixi/base.glb',
+        },
         // { name: 'matcapGold', source: './models/matcaps/gold.png', type: 'texture' },
       ],
       // ,

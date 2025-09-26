@@ -13,7 +13,7 @@ export default class Base {
     height: number;
   };
   resources: Resource;
-  materials: Material;
+  materials: any;
   parsers: any;
   meshObjects: any;
   ready: boolean;
@@ -158,7 +158,7 @@ export default class Base {
           // Find material
           const match = _mesh.name.match(/^shade([a-z]+)_?[0-9]{0,3}?/i);
           const materialName = `${match[1].substring(0, 1).toLowerCase()}${match[1].substring(1)}`; // PastalCase to camelCase
-          let material = this.materials.shades.items[materialName];
+          let material = this.materials?.shades?.items[materialName];
           // Default
           if (typeof material === 'undefined') {
             material = new THREE.MeshNormalMaterial();
@@ -186,7 +186,7 @@ export default class Base {
           // Find material
           const match = _mesh.name.match(/^pure([a-z]+)_?[0-9]{0,3}?/i);
           const materialName = match[1].toLowerCase();
-          let material = this.materials.pures.items[materialName];
+          let material = this.materials?.pures?.items[materialName];
 
           // Default
           if (typeof material === 'undefined') {
@@ -239,11 +239,9 @@ export default class Base {
   }
 
   getConvertedMesh(_children, _options = {}) {
-    // await setMerge()
-    // const parsers = await createParse();
-
     const container = new THREE.Object3D();
     const center = new THREE.Vector3();
+    
     // Go through each base child
     const baseChildren = [..._children];
     for (const _child of baseChildren) {
@@ -251,7 +249,12 @@ export default class Base {
       if (_child.name.match(/^center_?[0-9]{0,3}?/i)) {
         center.set(_child.position.x, _child.position.y, _child.position.z);
       }
-      if (_child.isMesh) {
+      
+      // if (_child instanceof THREE.SkinnedMesh) {
+      //   // 对于SkinnedMesh，我们需要保持原始引用
+      //   container.add(_child);
+      // } else 
+        if (_child.isMesh) {
         // Find parser and use default if not found
         let parser = this.parsers.items.find((_item) =>
           _child.name.match(_item.regex),
@@ -262,27 +265,19 @@ export default class Base {
 
         // Create mesh by applying parser
         const mesh = parser.apply(_child.clone(), _options);
-        // Add to container
         container.add(mesh);
       } else if (_child.isGroup) {
         container.add(_child);
       }
     }
+
     // Recenter
     if (center.length() > 0) {
       for (const _child of container.children) {
         _child.position.sub(center);
       }
-
       container.position.add(center);
     }
-
-    // if(_options.mass && _options.mass === 0)
-    // {
-    //     container.matrixAutoUpdate = false
-    //     container.updateMatrix()
-    // }
-    // container.position.set(10, 5, 0)
 
     return container;
   }
@@ -470,40 +465,29 @@ export default class Base {
     hide=[],
     collision: any = null,
   ) {
-        const box = new THREE.Box3().setFromObject(_options.base.scene);
+    const box = new THREE.Box3().setFromObject(_options.base.scene);
     const size = box.getSize(new THREE.Vector3());
     const scale = 1 / size.y;
     console.log(_options.base, '/////',scale);
-    _options.base.scene.traverse((child)=>{
-      console.log(child)
-      console.log(child.name, child.type, child.scale)
-      if(child.isSkinnedMesh){
-        child.visible =! hide.includes(child?.material?.name)
-      }
-    })
+    // _options.base.scene.traverse((child)=>{
+    //   if(child.isSkinnedMesh){
+    //     child.castShadow = true;
+    //     child.receiveShadow = true;
+    //     child.visible =! hide.includes(child?.material?.name)
+    //   }
+    // })
 
-    this.mixer = new THREE.AnimationMixer(_options.base.scene);
-    const action = this.mixer.clipAction(_options.base.animations[0]);
-    action.play();
 
-    let res = this.getConvertedMesh(_options.base.scene.children);
-
-    // let res = _options.base;
-    // console.log(res, res2);
-    // if (res.children.length > 1) {
-    //   let temp = new THREE.Mesh();
-    //   temp.children = [...res.children];
-    //   res = temp;
-    // } else
-
-    if (res.children.length == 1) res = res.children[0];
+    // 转换mesh
+    // let res = this.getConvertedMesh(_options.base.scene.children);
+    // if (res.children.length == 1) res = res.children[0];
     if (
       _options.rotation &&
       _options.rotation.x !== undefined &&
       _options.rotation.y !== undefined &&
       _options.rotation.z !== undefined
     ) {
-      res.rotation.set(
+      _options.base.scene.rotation.set(
         _options.rotation.x,
         _options.rotation.y,
         _options.rotation.z,
@@ -515,7 +499,7 @@ export default class Base {
       _options.position.y !== undefined &&
       _options.position.z !== undefined
     ) {
-      res.position.set(
+      _options.base.scene.position.set(
         _options.position.x,
         _options.position.y,
         _options.position.z,
@@ -527,19 +511,23 @@ export default class Base {
       _options.scale.y !== undefined &&
       _options.scale.z !== undefined
     ) {
-      res.scale.set(scale, scale, scale);
+      // 将用户设置的scale与自动计算的scale相乘
+      _options.base.scene.scale.set(
+        _options.scale.x * scale,
+        _options.scale.y * scale,
+        _options.scale.z * scale
+      );
     }
-    if (res.type === 'Group') {
-      res.children.forEach((child) => {
-        child.scale.set(scale, scale, scale);
-      });
-    }
-      res.scale.set(scale, scale, scale);
 
-    res.castShadow = true;
-    res.receiveShadow = true;
-    this.scene.add(res);
-    res.updateMatrixWorld(true)
+
+        this.mixer = new THREE.AnimationMixer(_options.base.scene);
+    if (_options.base.animations && _options.base.animations.length > 0) {
+      const action = this.mixer.clipAction(_options.base.animations[1]);
+      action.play();
+    }
+
+    this.scene.add(_options.base.scene);
+    _options.base.scene.updateMatrixWorld(true)
     // if (_options.needPhysics) {
     //   if (collision) {
     //     this.addPhysicsObjectsFromGLB({
@@ -556,6 +544,6 @@ export default class Base {
     //     this.createPhysicsByTriangle(res, _options.mass, _options.spring, _options.scale);
     //   }
     // }
-    return res;
+    // return res;
   }
 }
