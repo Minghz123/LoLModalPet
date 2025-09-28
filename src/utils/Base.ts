@@ -20,6 +20,7 @@ export default class Base {
   dirLight: any;
   time: { start: number; elasped: number };
   mixer: any;
+  cnt: number;
 
   constructor(
     canvas,
@@ -30,6 +31,7 @@ export default class Base {
     this.time = { start: Date.now(), elasped: 0 };
     this.ready = false;
     this.meshObjects = [];
+    this.cnt = 0;
     this.sizes = { width, height };
     // 场景
     this.scene = new THREE.Scene();
@@ -54,6 +56,7 @@ export default class Base {
     this.renderer = new THREE.WebGLRenderer({
       canvas,
       alpha: true,
+      logarithmicDepthBuffer: true,
     });
     this.renderer.setSize(width, height);
     this.renderer.shadowMap.enabled = true;
@@ -78,6 +81,7 @@ export default class Base {
 
     // this.setMaterials();
     this.creatParsers();
+    this.addListener();
     let timer = setInterval(() => {
       if (this.resources.ready) {
         this.ready = true;
@@ -86,9 +90,72 @@ export default class Base {
         clearInterval(timer);
       }
     }, 500);
+    window.electron?.ipcRenderer.on(
+      'context-menu-command',
+      (e, command: string) => {
+        console.log('change model to:', command);
+
+        // 移除当前模型
+        if (this.meshObjects.length > 0) {
+          this.meshObjects.forEach((obj) => {
+            if (obj.scene) {
+              // 停止动画
+              if (this.mixer) {
+                this.mixer.stopAllAction();
+                this.mixer.uncacheRoot(obj.scene);
+              }
+              // 从场景中移除
+              this.scene.remove(obj.scene);
+            }
+          });
+          // 清空数组
+          this.meshObjects = [];
+        }
+
+        // 添加新模型
+        this.add({
+          base: this.resources.items[e as string],
+          position: new THREE.Vector3(0, -0.5, 0),
+          scale: new THREE.Vector3(1, 1, 1),
+          rotation: new THREE.Vector3(0, 0, 0),
+          needPhysics: false,
+          mass: 0,
+          spring: 0,
+        });
+      },
+    );
+  }
+  addListener() {
+    window.addEventListener('keyup', (event) => {
+      // 只在按下空格键时触发
+      if (event.code === 'Space') {
+        console.log('change anima');
+
+        // 停止所有当前动画
+        if (this.mixer._actions.length > 0) {
+          this.mixer._actions.forEach((action) => {
+            action.fadeOut(0.5);
+            action.stop();
+          });
+        }
+
+        // 计算下一个动画索引
+        this.cnt = (this.cnt + 1) % this.meshObjects[0].animations.length;
+
+        // 创建新动作
+        const nextAction = this.mixer.clipAction(
+          this.meshObjects[0].animations[this.cnt],
+        );
+        // 重置动画状态
+        nextAction.reset();
+        // 设置初始权重为0并淡入
+        // nextAction.setEffectiveWeight(0)
+        nextAction.fadeIn(0.5);
+        nextAction.play();
+      }
+    });
   }
   update() {
-
     this.renderer.render(this.scene, this.camera);
   }
   // 自适应
@@ -241,7 +308,7 @@ export default class Base {
   getConvertedMesh(_children, _options = {}) {
     const container = new THREE.Object3D();
     const center = new THREE.Vector3();
-    
+
     // Go through each base child
     const baseChildren = [..._children];
     for (const _child of baseChildren) {
@@ -249,12 +316,12 @@ export default class Base {
       if (_child.name.match(/^center_?[0-9]{0,3}?/i)) {
         center.set(_child.position.x, _child.position.y, _child.position.z);
       }
-      
+
       // if (_child instanceof THREE.SkinnedMesh) {
       //   // 对于SkinnedMesh，我们需要保持原始引用
       //   container.add(_child);
-      // } else 
-        if (_child.isMesh) {
+      // } else
+      if (_child.isMesh) {
         // Find parser and use default if not found
         let parser = this.parsers.items.find((_item) =>
           _child.name.match(_item.regex),
@@ -462,21 +529,26 @@ export default class Base {
       mass: 0,
       spring: 0,
     },
-    hide=[],
+    hide = [],
     collision: any = null,
   ) {
     const box = new THREE.Box3().setFromObject(_options.base.scene);
+    this.meshObjects.push(_options.base);
     const size = box.getSize(new THREE.Vector3());
     const scale = 1 / size.y;
-    console.log(_options.base, '/////',scale);
-    // _options.base.scene.traverse((child)=>{
-    //   if(child.isSkinnedMesh){
-    //     child.castShadow = true;
-    //     child.receiveShadow = true;
-    //     child.visible =! hide.includes(child?.material?.name)
-    //   }
-    // })
+    console.log(_options.base, '/////', scale);
+    _options.base.scene.traverse((child) => {
+      if (child.isSkinnedMesh) {
+        child.castShadow = true;
+        child.receiveShadow = true;
+        child.visible = !hide.includes(child?.material?.name);
+        child.material.depthWrite = true;
 
+        child.material.polygonOffset = true;
+        child.material.polygonOffsetFactor = 1; // 正值向前偏移
+        child.material.polygonOffsetUnits = 1;
+      }
+    });
 
     // 转换mesh
     // let res = this.getConvertedMesh(_options.base.scene.children);
@@ -515,19 +587,18 @@ export default class Base {
       _options.base.scene.scale.set(
         _options.scale.x * scale,
         _options.scale.y * scale,
-        _options.scale.z * scale
+        _options.scale.z * scale,
       );
     }
 
-
-        this.mixer = new THREE.AnimationMixer(_options.base.scene);
+    this.mixer = new THREE.AnimationMixer(_options.base.scene);
     if (_options.base.animations && _options.base.animations.length > 0) {
-      const action = this.mixer.clipAction(_options.base.animations[1]);
+      const action = this.mixer.clipAction(_options.base.animations[0]);
       action.play();
     }
 
     this.scene.add(_options.base.scene);
-    _options.base.scene.updateMatrixWorld(true)
+    _options.base.scene.updateMatrixWorld(true);
     // if (_options.needPhysics) {
     //   if (collision) {
     //     this.addPhysicsObjectsFromGLB({

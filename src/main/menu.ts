@@ -4,6 +4,8 @@ import {
   shell,
   BrowserWindow,
   MenuItemConstructorOptions,
+  ipcMain
+  ,Tray 
 } from 'electron';
 
 interface DarwinMenuItemConstructorOptions extends MenuItemConstructorOptions {
@@ -13,18 +15,20 @@ interface DarwinMenuItemConstructorOptions extends MenuItemConstructorOptions {
 
 export default class MenuBuilder {
   mainWindow: BrowserWindow;
+  items:Object[]
 
-  constructor(mainWindow: BrowserWindow) {
+  constructor(mainWindow: BrowserWindow,items) {
     this.mainWindow = mainWindow;
+    this.items = items
   }
 
   buildMenu(): Menu {
-    if (
-      process.env.NODE_ENV === 'development' ||
-      process.env.DEBUG_PROD === 'true'
-    ) {
+    // if (
+    //   process.env.NODE_ENV === 'development' ||
+    //   process.env.DEBUG_PROD === 'true'
+    // ) {
       this.setupDevelopmentEnvironment();
-    }
+    // }
 
     const template =
       process.platform === 'darwin'
@@ -33,7 +37,24 @@ export default class MenuBuilder {
 
     const menu = Menu.buildFromTemplate(template);
     Menu.setApplicationMenu(menu);
-
+    ipcMain.on('show-context-menu',(event)=>{
+      
+      const menu = Menu.buildFromTemplate(this.items)
+      menu.popup({
+        window:BrowserWindow.fromWebContents(event.sender)
+      })
+    })
+    let tray = new Tray('assets/icon.jpg')
+const trayMenu = Menu.buildFromTemplate([
+  {
+    label:'退出',
+    click:function(){
+      app.quit()
+    }
+  }
+])
+  tray.setToolTip('桌宠')
+  tray.setContextMenu(trayMenu)
     return menu;
   }
 

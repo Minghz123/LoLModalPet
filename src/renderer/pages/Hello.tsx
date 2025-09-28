@@ -26,7 +26,7 @@ export default function Hello() {
     dollmesh = base.add({
       base: base.resources.items.arura,
       position: new THREE.Vector3(0, -.5, 0),
-      scale: new THREE.Vector3(3, 3, 3),  // 修改为1,1,1，让自动计算的scale起作用
+      scale: new THREE.Vector3(1, 1, 1),  // 修改为1,1,1，让自动计算的scale起作用
       rotation: new THREE.Vector3(0, 0, 0),
       needPhysics: false,
       mass: 0,
@@ -53,9 +53,8 @@ export default function Hello() {
     base.scene.add(mesh)
   }
 
-  const handleClick = () => {
-    dollmesh.scale.set(0.01,0.01,0.01)
-    dollmesh.position.x = 100
+  const handleClick = (e) => {
+    console.log(e)
   }
 
   useEffect(() => {
@@ -65,7 +64,7 @@ export default function Hello() {
       if (base.ready) {
         controls = new OrbitControls(base.camera, base.renderer.domElement);
         // base.addAmbientLight(0.75);
-        base.camera.position.set(0.5, 1.5, 1.5);
+        base.camera.position.set(0.5, 1.0, 1.0);
         base.camera.lookAt(0, 0, 0);
         
         let dir = base.addDirLight(1);
@@ -88,7 +87,8 @@ export default function Hello() {
   return (
     <>
       {/* <button className='abc' onClick={handleClick}>click</button> */}
-      <div className="container">
+      <div className="container" onContextMenu={(e)=>{handleClick(e)}}>
+        <div className='dragBar'></div>
         <canvas ref={canvasDom} />
       </div>
     </>

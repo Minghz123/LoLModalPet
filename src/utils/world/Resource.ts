@@ -37,6 +37,22 @@ export default class Resource {
           name: 'aixi',
           source: 'models/aixi/base.glb',
         },
+        {
+          name: 'nico',
+          source: 'models/nico/base.glb',
+        },
+        {
+          name: 'murfi',
+          source: 'models/murfi/base.glb',
+        },
+        {
+          name: 'douhun_gewen',
+          source: 'models/gewen/douhun_gewen.glb',
+        },
+        {
+          name: 'lux',
+          source: 'models/lux/base.glb',
+        },
         // { name: 'matcapGold', source: './models/matcaps/gold.png', type: 'texture' },
       ],
       // ,
@@ -62,6 +78,8 @@ export default class Resource {
     let timer = setInterval(() => {
       if (this.loader.loading == 0) {
         this.ready = true;
+        console.log('????')
+        window.electron.ipcRenderer.sendMessage('menu-item',Object.keys(this.items))
         clearInterval(timer);
       }
     }, 500);

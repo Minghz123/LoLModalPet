@@ -31,6 +31,32 @@ ipcMain.on('ipc-example', async (event, arg) => {
   event.reply('ipc-example', msgTemplate('pong'));
 });
 
+ipcMain.on('menu-item',(event,arg)=>{
+  console.log(arg,'???')
+  const template = arg.map((item)=>{
+    return {
+      label:item,
+      click:()=>{
+        event.sender.send('context-menu-command',item)
+      }
+    }
+  })
+  const menuBuilder = new MenuBuilder(mainWindow,template);
+  menuBuilder.buildMenu();
+})
+
+
+
+ipcMain.on('toggle-devtools', () => {
+  if (mainWindow) {
+    if (mainWindow.webContents.isDevToolsOpened()) {
+      mainWindow.webContents.closeDevTools();
+    } else {
+      mainWindow.webContents.openDevTools();
+    }
+  }
+});
+
 if (process.env.NODE_ENV === 'production') {
   const sourceMapSupport = require('source-map-support');
   sourceMapSupport.install();
@@ -71,12 +97,14 @@ const createWindow = async () => {
 
   mainWindow = new BrowserWindow({
     show: false,
+    alwaysOnTop:true,
     width: 300, 
     height: 300,
     // backgroundColor:'rgba(255,0,0,0.1)',
     frame:false,
     transparent:true,
-    icon: getAssetPath('icon.png'),
+    icon: getAssetPath('icon.jpg'),
+    skipTaskbar:true,
     webPreferences: {
       preload: app.isPackaged
         ? path.join(__dirname, 'preload.js')
@@ -101,8 +129,7 @@ const createWindow = async () => {
     mainWindow = null;
   });
 
-  const menuBuilder = new MenuBuilder(mainWindow);
-  menuBuilder.buildMenu();
+
 
   // Open urls in the user's browser
   mainWindow.webContents.setWindowOpenHandler((edata) => {
