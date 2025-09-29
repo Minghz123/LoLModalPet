@@ -78,8 +78,11 @@ export default class Resource {
     let timer = setInterval(() => {
       if (this.loader.loading == 0) {
         this.ready = true;
+        setTimeout(() => {
         console.log('????')
-        window.electron.ipcRenderer.sendMessage('menu-item',Object.keys(this.items))
+
+          window.electron.ipcRenderer.sendMessage('menu-item',Object.keys(this.items))
+        }, 1000);
         clearInterval(timer);
       }
     }, 500);

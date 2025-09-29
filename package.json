@@ -1,5 +1,5 @@
 {
-  "name": "electron-react-boilerplate",
+  "name": "lol-modal-pet",
   "description": "A foundation for scalable desktop apps",
   "keywords": [
     "electron",
@@ -129,6 +129,7 @@
     "browserslist-config-erb": "^0.0.3",
     "chalk": "^4.1.2",
     "concurrently": "^9.1.2",
+    "copy-webpack-plugin": "^13.0.1",
     "core-js": "^3.41.0",
     "cross-env": "^7.0.3",
     "css-loader": "^7.1.2",
@@ -177,7 +178,7 @@
     "webpack-merge": "^6.0.1"
   },
   "build": {
-    "productName": "ElectronReact",
+    "productName": "LoLModalPet",
     "appId": "org.erb.ElectronReact",
     "asar": true,
     "afterSign": ".erb/scripts/notarize.js",
@@ -185,7 +186,9 @@
     "files": [
       "dist",
       "node_modules",
-      "package.json"
+      "package.json",
+      "public",
+      "assets"
     ],
     "mac": {
       "notarize": false,
@@ -219,7 +222,8 @@
     "win": {
       "target": [
         "nsis"
-      ]
+      ],
+      "icon": "assets/icon.jpg"
     },
     "linux": {
       "target": [

@@ -7,12 +7,19 @@ import {
   ipcMain
   ,Tray 
 } from 'electron';
+import path from 'path'; 
 
 interface DarwinMenuItemConstructorOptions extends MenuItemConstructorOptions {
   selector?: string;
   submenu?: DarwinMenuItemConstructorOptions[] | Menu;
 }
+  const RESOURCES_PATH = app.isPackaged
+    ? path.join(process.resourcesPath, 'assets')
+    : path.join(__dirname, '../../assets');
 
+  const getAssetPath = (...paths: string[]): string => {
+    return path.join(RESOURCES_PATH, ...paths);
+  };
 export default class MenuBuilder {
   mainWindow: BrowserWindow;
   items:Object[]
@@ -44,7 +51,7 @@ export default class MenuBuilder {
         window:BrowserWindow.fromWebContents(event.sender)
       })
     })
-    let tray = new Tray('assets/icon.jpg')
+    let tray = new Tray(getAssetPath('icon.jpg'))
 const trayMenu = Menu.buildFromTemplate([
   {
     label:'退出',
