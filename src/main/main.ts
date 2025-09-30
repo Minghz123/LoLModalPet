@@ -9,7 +9,7 @@
  * `./src/main.js` using webpack. This gives us some performance wins.
  */
 import path from 'path'; 
-import { app, BrowserWindow, shell, ipcMain } from 'electron';
+import { app, BrowserWindow, shell, ipcMain ,screen} from 'electron';
 import { autoUpdater } from 'electron-updater';
 import log from 'electron-log';
 import MenuBuilder from './menu';
@@ -94,7 +94,7 @@ const createWindow = async () => {
   const getAssetPath = (...paths: string[]): string => {
     return path.join(RESOURCES_PATH, ...paths);
   };
-
+  const {width ,height} = screen.getPrimaryDisplay().workAreaSize
   mainWindow = new BrowserWindow({
     show: false,
     alwaysOnTop:true,
@@ -105,6 +105,8 @@ const createWindow = async () => {
     transparent:true,
     icon: getAssetPath('icon.jpg'),
     skipTaskbar:true,
+    x:width-300,
+    y:height-400,
     webPreferences: {
       preload: app.isPackaged
         ? path.join(__dirname, 'preload.js')

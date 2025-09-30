@@ -64,12 +64,12 @@ export default function Hello() {
       if (base.ready) {
         controls = new OrbitControls(base.camera, base.renderer.domElement);
         // base.addAmbientLight(0.75);
-        base.camera.position.set(-0.5, 1.0, 1.0);
+        base.camera.position.set(0.5, 1.0, 1.0);
         base.camera.lookAt(0, 0, 0);
         
         let dir = base.addDirLight(1);
         dir.castShadow = true;
-        dir.position.set(-5, 5, 5);
+        dir.position.set(5, 5, 5);
 
         createObj()
             console.log(base,'//')
