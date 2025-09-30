@@ -543,10 +543,17 @@ export default class Base {
         child.receiveShadow = true;
         child.visible = !hide.includes(child?.material?.name);
         child.material.depthWrite = true;
-
-        child.material.polygonOffset = true;
-        child.material.polygonOffsetFactor = 1; // 正值向前偏移
-        child.material.polygonOffsetUnits = 1;
+          child.material.alphaTest = true
+        // if(child.material.name.indexOf('Eye_')>-1 || child.material.name.indexOf('Mouth_') >-1){
+        //   // child.material.alphaHash = true
+        //   console.log('test')
+        //   // child.material.alphaTest = true
+          
+        // child.material.alphaToCoverage = true
+        // }
+        // child.material.polygonOffset = true;
+        // child.material.polygonOffsetFactor = 10; // 正值向前偏移
+        // child.material.polygonOffsetUnits = 10;
       }
     });
 
